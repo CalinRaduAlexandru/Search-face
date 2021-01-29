@@ -9,3 +9,28 @@
     rgba(2, 0, 36, 1) 100%
   );
 }
+.exemple-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.text-box {
+  width: 300px;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+}
+
+.text-exemple {
+  display: flex;
+  font-size: 15px;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 20px;
+}

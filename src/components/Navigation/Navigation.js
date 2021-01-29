@@ -1,14 +1,10 @@
 import React from "react";
-import Logo from "../Logo/Logo";
 import "./Navigation.styles.css";
 
 const Navigation = ({ onRouteChange, isSignedIn }) => {
   if (isSignedIn) {
     return (
       <div className="header">
-        <div className="logo">
-          <Logo />
-        </div>
         <div className="options">
           <p
             onClick={() => onRouteChange("signout")}
@@ -22,7 +18,6 @@ const Navigation = ({ onRouteChange, isSignedIn }) => {
   } else {
     return (
       <nav className="header">
-        <Logo className="logo" />
         <div className="options">
           <p
             onClick={() => onRouteChange("signin")}

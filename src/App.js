@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Particles from "react-particles-js";
+import Logo from "./components/Logo/Logo";
 import FaceRecognition from "./components/FaceRecognition/FaceRecognition";
 import Navigation from "./components/Navigation/Navigation";
 import Signin from "./components/Signin/Signin";
@@ -115,6 +116,9 @@ class App extends Component {
     return (
       <div className="App">
         <Particles className="particles" params={particlesOptions} />
+        <div className="logo">
+          <Logo />
+        </div>
         <Navigation
           isSignedIn={isSignedIn}
           onRouteChange={this.onRouteChange}

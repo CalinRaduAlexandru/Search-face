@@ -8,13 +8,15 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit, imageUrl }) => {
         {"This Magic Search will detect faces in your pictures. Give it a try."}
       </p>
       {imageUrl === "" ? (
-        <div>
+        <div className="exemple-box">
           <h1>Exemple link:</h1>
-          <p>
-            https://i2-prod.mirror.co.uk/incoming/
-            <p>article14334083.ece/ALTERNATES/s615/3_</p>
-          </p>{" "}
-          <p>Beautiful-girl-with-a-gentle-smile.jpg</p>
+          <div className="text-box">
+            <div className="text-exemple">
+              https://i2-prod.mirror.co.uk/incoming/
+              article14334083.ece/ALTERNATES/s615/
+              3_Beautiful-girl-with-a-gentle-smile.jpg
+            </div>
+          </div>
         </div>
       ) : null}
       <div className="center">
