@@ -128,6 +128,7 @@ class App extends Component {
               />
             </div>
             <ImageLinkForm
+              imageUrl={imageUrl}
               onInputChange={this.onInputChange}
               onButtonSubmit={this.onButtonSubmit}
             />
