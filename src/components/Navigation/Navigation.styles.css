@@ -1,7 +1,13 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: baseline;
   margin-top: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: 80%;
 }
 
 .options {

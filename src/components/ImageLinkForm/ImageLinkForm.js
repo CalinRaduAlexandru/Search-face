@@ -11,7 +11,8 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit, imageUrl }) => {
         <div>
           <h1>Exemple link:</h1>
           <p>
-            https://i2-prod.mirror.co.uk/incoming/article14334083.ece/ALTERNATES/s615/3_
+            https://i2-prod.mirror.co.uk/incoming/
+            <p>article14334083.ece/ALTERNATES/s615/3_</p>
           </p>{" "}
           <p>Beautiful-girl-with-a-gentle-smile.jpg</p>
         </div>

@@ -5,14 +5,14 @@ import "./Logo.css";
 
 const Logo = () => {
   return (
-    <div className="ma4 mt0">
+    <div className="logo-box">
       <Tilt
         className="Tilt br2 shadow-2"
         options={{ max: 55 }}
         style={{ height: 80, width: 80 }}
       >
         <div className="Tilt-inner pa30">
-          <img style={{ paddingTop: "0px" }} alt="logo" src={face} />
+          <img alt="logo" src={face} />
         </div>
       </Tilt>
     </div>
